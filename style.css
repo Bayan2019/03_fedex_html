@@ -6,13 +6,15 @@ body {
 }
 
 .mySlides {
+    width: 1150px;
+    height: 900px;
+    padding: 5px;
+    margin: 5px;
     display: none;
     border-radius: 10px; 
 }
 
 .slideshow-container {
-    max-width: 1200px;
-    position: relative;
     margin: auto;
 }
 
@@ -25,23 +27,23 @@ iframe {
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
+    width: 140%;
+    height: 60%;
 }
 
 .text {
     color: blue;
     font-size: 15px;
-    padding: 8px 12px;
-    bottom: 0;
+    padding: 8px;
     width: 100%;
     text-align: center;
-    margin: 5px;
 }
 
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 30%;
     width: auto;
     padding: 20px;
     /* margin-top: -22px; */
