@@ -6,22 +6,22 @@ body {
 }
 
 .mySlides1 {
-    width: 1150px;
+    width: 1190px;
     height: 470px;
-    padding: 0 5px;
-    margin: 0 5px;
+    padding: 0 3px;
+    margin: 0 3px;
     display: none;
     border-radius: 10px; 
 }
 
 .slideshow-container {
-    margin: 10px 5px;
+    margin: 10px 3px;
 }
 
 .plot {
+    /* float: left; */
     width: 70%;
     height: 400px;
-    float: left;
     display: inline-block;
 }
 
@@ -37,13 +37,21 @@ iframe {
 .text {
     color: blue;
     font-size: 15px;
-    padding: 60px 5px;
+    padding-top: 60px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 3px; 
     /* width: 100%; */
-    text-align: center;
-    float: right;
+    text-align: right;
+    /* float: right; */
     width: 27%;
     display: inline-block;
     height: 400px;
+}
+
+.text p {
+    margin-right: 0;
+    padding-right: 0;
 }
 
 /* Next & previous buttons */
@@ -52,7 +60,8 @@ iframe {
     position: absolute;
     top: 25%; 
     width: auto;
-    padding: 0 20px;
+    padding: 0 5px;
+    margin: 0 3px;
     /* margin-top: -22px; */
     color: red;
     font-weight: bold;
