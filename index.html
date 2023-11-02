@@ -9,36 +9,37 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h2 class="plot-title">Fedex</h2>
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <div class="text">
-                <h3>Date</h3>
+    <h1>Fedex</h1>
+
+    <h2 class="plot-title">Date</h2>
+    <div class="paired">
+        <div class="in-line">
+            <div class="plot">
+                <iframe src="./figures/line_date.html"></iframe>
             </div>
-            <div class="numbertext">1 / </div>
-            <iframe src="./figures/line_date.html"></iframe>
-            <div class="text">
-                <h3>Number of Packages</h3>
-                <h4>Number of Packages</h4>
+            <div class='annotation'>
+
                 <p>Number of deliveries has weekly seasonality</p>
             </div>
         </div>
-        <div class="mySlides fade">
-            <div class="text">
-                <h3>Date</h3>
+        <div class="in-line">
+            <div class="plot">
+                <iframe src="./figures/line_date_delivery.html"></iframe>
             </div>
-            <div class="numbertext">2 / </div>
-            <iframe src="./figures/line_date_delivery.html"></iframe>
-            <div class="text">
+            <div class='annotation'>
                 <h4>Number of Packages classified by Delivery Status</h4>
                 <p>Here we observe much less explicit seasonal pattern, but seems like figure is assymetric</p>
             </div>
         </div>
+    </div>
+
+    <h2 class="plot-title">1st Moment Business Decision</h2>
+    <div class="slideshow-container">
         <div class="mySlides fade">
             <div class="text">
                 <h3>1st Moment Business Decision</h3>
             </div>
-            <div class="numbertext">3 / </div>
+            <div class="numbertext">1 / </div>
             <iframe src="./figures/pie_Carrier_Name.html"></iframe>
             <div class="text">
                 <h4>Carrier Name</h4>
@@ -49,7 +50,7 @@
             <div class="text">
                 <h3>1st Moment Business Decision</h3>
             </div>
-            <div class="numbertext">4 / </div>
+            <div class="numbertext">3 / </div>
             <iframe src="./figures/pie_Source.html"></iframe>
             <div class="text">
                 <h4>Source</h4>
@@ -60,7 +61,7 @@
             <div class="text">
                 <h3>1st Moment Business Decision</h3>
             </div>
-            <div class="numbertext">5 / </div>
+            <div class="numbertext">3 / </div>
             <iframe src="./figures/pie_Destination.html" ></iframe>
             <div class="text">
                 <h4>Destination</h4>
