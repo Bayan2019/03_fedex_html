@@ -2,12 +2,29 @@ body {
     font-family: Verdana, 
     sans-serif; 
     margin:0;
-    background-color: beige;
+    background-color: #4d148c;
+}
+
+.nav {
+    display: inline-block;
+}
+
+img {
+    padding: 20px 5px 6px 25px;
+    display: inline-block;
+}
+
+h2 {
+    color: pink;
+    padding-left: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    display: inline-block;
 }
 
 .mySlides1 {
     width: 1190px;
-    height: 500px;
+    height: 480px;
     padding: 0 3px;
     margin: 0 3px;
     display: none;
@@ -16,6 +33,7 @@ body {
 
 .slideshow-container {
     margin: 10px 3px;
+    height: 480px;
 }
 
 .plot {
@@ -35,7 +53,7 @@ iframe {
 }
 
 .text {
-    color: blue;
+    color: orange;
     font-size: 15px;
     padding-top: 60px;
     padding-right: 5px;
@@ -58,14 +76,13 @@ iframe {
 .prev1, .next1 {
     cursor: pointer;
     position: absolute;
-    top: 25%; 
-    width: auto;
+    top: 40%; 
     padding: 0 10px;
     margin: 0 10px;
     /* margin-top: -22px; */
     color: red;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 30px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -86,7 +103,8 @@ iframe {
 .numbertext {
     color: red;
     font-size: 12px;
-    padding: 8px 12px;
+    font-weight: bold;
+    padding: 2px 12px;
     text-align: left;
 }
 
@@ -97,18 +115,18 @@ iframe {
 
 .dots {
     padding: 3px 40px;
-    margin: 3px 5px;
-    max-height: 100px;
+    margin: 2px 5px;
+    height: 30px;
 }
 
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
+    height: 12px;
+    width: 12px;
     margin: 0 5px;
     padding: 0;
     background-color: violet;
-    border-radius: 50px;
+    border-radius: 5px;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
