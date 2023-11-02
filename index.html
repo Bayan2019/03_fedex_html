@@ -17,27 +17,78 @@
         <a href="./web_pages/4th_moment/4th_moment.html">4th Moment</a> |
         <a href="./web_pages/boxplot_outliers/boxplot_outliers.html">Outliers</a> |
         <a href="./web_pages/histograms/histograms.html">Histograms</a>
-
     </nav>
-    <div class="paired">
-        <div class="in-line">
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
             <div class="plot">
+                <div class="numbertext">1 / 6</div>
                 <iframe src="./figures/line_date.html"></iframe>
             </div>
-            <div class='annotation'>
+            <div class="text">
                 <h4>Number of Packages</h4>
                 <p>Number of deliveries has weekly seasonality</p>
             </div>
         </div>
-        <div class="in-line">
+        <div class="mySlides fade">
             <div class="plot">
+                <div class="numbertext">2 / 6</div>
                 <iframe src="./figures/line_date_delivery.html"></iframe>
             </div>
-            <div class='annotation'>
+            <div class="text">
                 <h4>Number of Packages classified by Delivery Status</h4>
                 <p>Here we observe much less explicit seasonal pattern, but seems like figure is assymetric</p>
             </div>
         </div>
+        <div class="mySlides fade">
+            <div class="plot">
+                <div class="numbertext">3 / 6</div>
+                <iframe src="./figures/date_hist.html"></iframe>
+            </div>
+            <div class="text">
+                <h4>Histogram of Delivery Status along date</h4>
+                <!-- <p>Packages with small planned time of travel are tend to get lost.</p> -->
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="plot">
+                <div class="numbertext">4 / 6</div>
+                <iframe src="./figures/date_hist_Month.html"></iframe>
+            </div>
+            <div class="text">
+                <h4>Histogram of Month</h4>
+                <!-- <p>Packages with small planned time of travel are tend to get lost.</p> -->
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="plot">
+                <div class="numbertext">5 / 6</div>
+                <iframe src="./figures/date_hist_DayOfWeek.html"></iframe>
+            </div>
+            <div class="text">
+                <h4>Histogram of Day of Week</h4>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="plot">
+                <div class="numbertext">6 / 6</div>
+                <iframe src="./figures/date_hist_DayofMonth.html"></iframe>
+            </div>
+            <div class="text">
+                <h4>Histogram of Day of Month</h4>
+                <!-- <p>Packages with small distances are tend to get lost.</p> -->
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
     </div>
 </body>
 <script src="./script.js"></script>

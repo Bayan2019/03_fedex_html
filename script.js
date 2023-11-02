@@ -9,7 +9,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-function showSlides1(n) {
+function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
