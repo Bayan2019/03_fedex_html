@@ -52,14 +52,6 @@ h1 {
     height: 100%;
 }
 
-iframe {
-    vertical-align: middle;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 5px;
-    width: 100%;
-    height: 100%;
-}
 
 .text {
     color: orange;
@@ -71,7 +63,7 @@ iframe {
     /* width: 100%; */
     text-align: right;
     /* float: right; */
-    width: 40%;
+    width: 30%;
     display: inline-block;
     height: 450px;
 }
