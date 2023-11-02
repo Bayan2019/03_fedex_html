@@ -5,7 +5,7 @@ body {
     background-color: beige;
 }
 
-.mySlides {
+.mySlides1 {
     width: 1150px;
     height: 900px;
     padding: 5px;
@@ -24,7 +24,7 @@ iframe {
     margin: 5px;
     padding: 5px;
     width: 100%;
-    height: 80%;
+    height: 70%;
 }
 
 .text {
@@ -36,10 +36,10 @@ iframe {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev1, .next1 {
     cursor: pointer;
-    position: relative;
-    top: 30%;
+    position: absolute;
+    top: 25%; 
     width: auto;
     padding: 20px;
     /* margin-top: -22px; */
@@ -52,13 +52,13 @@ iframe {
 }
 
 /* Position the "next button" to the right */
-.next {
+.next1 {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev1:hover, .next1:hover {
     background-color: rgba(0,0,0,0.8);
 }
 
