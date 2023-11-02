@@ -5,14 +5,21 @@ body {
     background-color: beige;
 }
 
+.in-line {
+    display: flex;
+}
+
 .plot {
-    width: 600px;
+    width: 70%;
     height: 400px;
+    float: left;
+    display: inline-block;
 }
 
 .annotation {
-    width: 400px;
+    width: 30%;
     height: 400px;
+    float: right;
 }
 
 .mySlides {
@@ -37,8 +44,8 @@ iframe {
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
-    width: 140%;
-    height: 60%;
+    width: 90%;
+    height: 100%;
 }
 
 .text {
@@ -52,7 +59,7 @@ iframe {
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
-    position: absolute;
+    position: relative;
     top: 30%;
     width: auto;
     padding: 20px;
