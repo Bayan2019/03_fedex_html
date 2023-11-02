@@ -2,24 +2,41 @@ body {
     font-family: Verdana, 
     sans-serif; 
     margin:0;
-    background-color: beige;
+    background-color: #4d148c;
+}
+
+nav {
+    padding: 10px 0px 10px 40px;
+    color: whitesmoke;
+}
+
+a {
+    color: aliceblue;
 }
 
 .in-line {
-    display: flex;
+    display: inline;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0;
 }
 
 .plot {
+    /* float: left; */
     width: 70%;
-    height: 400px;
-    float: left;
+    height: 370px;
     display: inline-block;
 }
 
 .annotation {
-    width: 30%;
-    height: 400px;
-    float: right;
+    color: pink;
+    width: 25%;
+    height: 270px;
+    display: inline-block;
+}
+
+h4 {
+    margin-top: 0;
 }
 
 .mySlides {
