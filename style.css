@@ -5,7 +5,17 @@ body {
     background-color: beige;
 }
 
-.mySlides1 {
+.plot {
+    width: 600px;
+    height: 400px;
+}
+
+.annotation {
+    width: 400px;
+    height: 400px;
+}
+
+.mySlides {
     width: 1150px;
     height: 900px;
     padding: 5px;
