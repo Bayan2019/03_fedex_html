@@ -7,86 +7,88 @@
     <title>Fedex</title>
     <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
     <link rel="icon" type="image/x-icon" href="../../pictures/logo.png">
-    <link rel="stylesheet" href="./4th_moment.css">
+    <link rel="stylesheet" href="./qq_plots.css">
 </head>
 <body>
     <div class="nav">
         <a href="../../index.html"><img src="../../pictures/logo.png" height="30px"></a> 
-        <h1 class="plot-title">3rd Moment Business Decision</h1>
+        <h1 class="plot-title">QQ Plots</h1>
     </div>
     <div class="slideshow-container">
         <div class="mySlides1 fade">
             <div class="plot">
-                <div class="numbertext">1 / 7</div>
-                <img src="../../figures/density1_Carrier_Num.png">
+                <div class="numbertext">1 / 8</div>
+                <img src="../../figures/qqplot_Carrier_Num.png">
             </div>
             <div class="text">
-                <h3>Kurtosis: <strong>-0.217094</strong></h3>
-                <h4>Density of Number of Carriers</h4>
+                <h3>Shapiro-Wilk p-value: <strong>-0.217094</strong></h3>
             </div>
         </div>
         <div class="mySlides1 fade">
             <div class="plot">
-                <div class="numbertext">2 / 7</div>
-                <img src="../../figures/density1_Planned_TimeofTravel.png">
+                <div class="numbertext">2 / 8</div>
+                <img src="../../figures/qqplot_Planned_TimeofTravel.png">
             </div>
             <div class="text">
-                <h3>Kurtosis: <strong>2.735711</strong></h3>
-                <h4>Density of Planned time of Travel</h4>
+                <h3>Shapiro-Wilk p-value: <strong>2.735711</strong></h3>
             </div>
         </div>
         <div class="mySlides1 fade">
             <div class="plot">
-                <div class="numbertext">3 / 7</div>
-                <img src="../../figures/density1_Distance.png">
+                <div class="numbertext">3 / 8</div>
+                <img src="../../figures/qqplot_Distance.png">
             </div>
             <div class="text">
-                <h3>Kurtosis: <strong>3.273434</strong></h3>
-                <h4>Density of Distance</h4>
+                <h3>Shapiro-Wilk p-value: <strong>3.273434</strong></h3>
                 <!-- <p>Packages with small planned time of travel are tend to get lost.</p> -->
             </div>
         </div>
         <div class="mySlides1 fade">
             <div class="plot">
-                <div class="numbertext">4 / 7</div>
-                <img src="../../figures/density1_Shipment_Delay.png">
+                <div class="numbertext">4 / 8</div>
+                <img src="../../figures/qqplot_Shipment_Delay.png">
             </div>
             <div class="text">
-                <h3>Kurtosis: <strong>96.077752</strong></h3>
-                <h4>Density of Shipment Delay</h4>
+                <h3>Shapiro-Wilk p-value: <strong>96.077752</strong></h3>
                 <!-- <p>Packages with small planned time of travel are tend to get lost.</p> -->
             </div>
         </div>
         <div class="mySlides1 fade">
             <div class="plot">
-                <div class="numbertext">5 / 7</div>
-                <img src="../../figures/density1_Planned_Shipment_Time.png">
+                <div class="numbertext">5 / 8</div>
+                <img src="../../figures/qqplot_Planned_Shipment_Time.png">
             </div>
             <div class="text">
-                <h3>Kurtosis: <strong>-1.045884</strong></h3>
-                <h4>Density of Planned time of Shipment</h4>
-                <p>Packages with small distances are tend to get lost.</p>
+                <h3>Shapiro-Wilk p-value: <strong>-1.045884</strong></h3>
             </div>
         </div>
         <div class="mySlides1 fade">
             <div class="plot">
-                <div class="numbertext">6 / 7</div>
-                <img src="../../figures/density1_Actual_Shipment_Time.png">
+                <div class="numbertext">6 / 8</div>
+                <img src="../../figures/qqplot_Actual_Shipment_Time.png">
             </div>
             <div class="text">
-                <h3>Kurtosis: <strong>-0.985367</strong></h3>
-                <h4>Density of Actual time of Shipment</h4>
+                <h3>Shapiro-Wilk p-value: <strong>-0.985367</strong></h3>
                 <!-- <p>Packages with small distances are tend to get lost.</p> -->
             </div>
         </div>
         <div class="mySlides1 fade">
             <div class="plot">
-                <div class="numbertext">7 / 7</div>
-                <img src="../../figures/density1_Planned_Delivery_Time.png">
+                <div class="numbertext">7 / 8</div>
+                <img src="../../figures/qqplot_Planned_Delivery_Time.png">
             </div>
             <div class="text">
-                <h3>Kurtosis: <strong>-0.602298</strong></h3>
-                <h4>Density of Planned time of Delivery</h4>
+                <h3>Shapiro-Wilk p-value: <strong>-0.602298</strong></h3>
+                <!-- <p>Delivered packages are usually delayed.</p> -->
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">8 / 8</div>
+                <img src="../../figures/qqplot_date.png">
+            </div>
+            <div class="text">
+                <h3>Shapiro-Wilk p-value: <strong>-0.602298</strong></h3>
                 <!-- <p>Delivered packages are usually delayed.</p> -->
             </div>
         </div>
@@ -101,8 +103,9 @@
         <span class="dot" onclick="currentSlide(5)"></span> 
         <span class="dot" onclick="currentSlide(6)"></span> 
         <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
     </div>
 </body>
-<script src="./4th_moment.js"></script>
+<script src="./qq_plots.js"></script>
 <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
 </html>
