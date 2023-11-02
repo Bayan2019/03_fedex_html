@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fedex</title>
+    <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
+    <link rel="icon" type="image/x-icon" href="../../pictures/logo.png">
+    <link rel="stylesheet" href="./histograms.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="../../index.html"><img src="../../pictures/logo.png" height="30px"></a> 
+        <h1 class="plot-title">Histograms without outliers</h1>
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">1 / 7</div>
+                <iframe src="../../figures/histogram2_Carrier_Num.html"></iframe>
+            </div>
+            <div class="text">
+                <h3>Skeweness: <strong>0.906254</strong></h3>
+                <h3>Kurtosis: <strong>-0.217168</strong></h3>
+                <h4>Histogram of Number of Carriers</h4>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">2 / 7</div>
+                <iframe src="../../figures/histogram2_Planned_TimeofTravel.html"></iframe>
+            </div>
+            <div class="text">
+                <h3>Skeweness: <strong>0.952837</strong></h3>
+                <h3>Kurtosis: <strong>0.172347</strong></h3>
+                <h4>Histogram of Planned time of Travel</h4>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">3 / 7</div>
+                <iframe src="../../figures/histogram2_Distance.html"></iframe>
+            </div>
+            <div class="text">
+                <h3>Skeweness: <strong>1.021597</strong></h3>
+                <h3>Kurtosis: <strong>0.221912</strong></h3>
+                <h4>Histogram of Distance</h4>
+                <!-- <p>Packages with small planned time of travel are tend to get lost.</p> -->
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">4 / 7</div>
+                <iframe src="../../figures/histogram2_Shipment_Delay.html"></iframe>
+            </div>
+            <div class="text">
+                <h3>Skeweness: <strong>1.062078</strong></h3>
+                <h3>Kurtosis: <strong>-0.198495</strong></h3>
+                <h4>Histogram of Shipment Delay</h4>
+                <!-- <p>Packages with small planned time of travel are tend to get lost.</p> -->
+            </div>
+        </div>
+        <a class="prev1" onclick="plusSlides(-1)">❮</a>
+        <a class="next1" onclick="plusSlides(1)">❯</a>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+</body>
+<script src="./histograms.js"></script>
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</html>
