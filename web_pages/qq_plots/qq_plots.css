@@ -22,25 +22,30 @@ h1 {
     display: inline-block;
 }
 
+.slideshow-container {
+    margin: 10px 3px;
+    height: 480px;
+    align-items: center;
+    align-self: center;
+}
+
 .mySlides1 {
-    width: 1190px;
+    width: 1200px;
     height: 480px;
     padding: 0 3px;
     margin: 0 3px;
     display: none;
     border-radius: 10px; 
-}
-
-.slideshow-container {
-    margin: 10px 3px;
-    height: 480px;
+    align-self: center;
+    align-items: center;
+    margin: auto;
 }
 
 .plot {
     /* float: left; */
-    width: 50%;
+    width: 100%;
     height: 450px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .plot img {
@@ -52,14 +57,14 @@ h1 {
     height: 100%;
 }
 
-iframe {
+/* iframe {
     vertical-align: middle;
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
     width: 100%;
     height: 100%;
-}
+} */
 
 .text {
     color: orange;
@@ -71,8 +76,8 @@ iframe {
     /* width: 100%; */
     text-align: right;
     /* float: right; */
-    width: 40%;
-    display: inline-block;
+    /* width: 25%; */
+    /* display: inline-block; */
     height: 450px;
 }
 
