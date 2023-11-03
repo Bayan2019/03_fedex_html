@@ -108,6 +108,18 @@
         <span class="dot" onclick="currentSlide(6)"></span> 
         <span class="dot" onclick="currentSlide(7)"></span> 
     </div>
+    <div class="notes">
+        <p>We have luxury of big dataset and limitation of restricted computing power. 
+        Therefore we can simply drop the outliers.</p>
+        <p>However in our case by dropping constantly outliers we ended up with only not delivered records.
+            It is probably because our data is unbalanced and not delivered packages dominate the dataset by shadowing 
+            the pattern of delivered packages.
+        </p>
+        <p>
+            Therefore we randomly were dropping undelivered packages to balance dataset. 
+        </p>
+        <p>Nonetheless we still ended with too big data, so we needed to sample again.</p>
+    </div>
 </body>
 <script src="./histograms.js"></script>
 <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->

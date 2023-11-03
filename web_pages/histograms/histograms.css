@@ -22,18 +22,19 @@ h1 {
     display: inline-block;
 }
 
+.slideshow-container {
+    margin: 10px 3px;
+    height: 480px;
+}
+
 .mySlides1 {
     width: 1190px;
     height: 480px;
     padding: 0 3px;
     margin: 0 3px;
     display: none;
-    border-radius: 10px; 
-}
-
-.slideshow-container {
-    margin: 10px 3px;
-    height: 480px;
+    border-radius: 10px;
+    margin: auto;
 }
 
 .plot {
@@ -56,13 +57,13 @@ iframe {
     color: orange;
     font-size: 15px;
     padding-top: 60px;
-    padding-right: 5px;
+    padding-right: 10px;
     margin-left: 10px;
-    margin-right: 3px; 
+    margin-right: 10px; 
     /* width: 100%; */
     text-align: right;
     /* float: right; */
-    width: 27%;
+    width: 24%;
     display: inline-block;
     height: 450px;
 }
@@ -133,6 +134,12 @@ iframe {
 
 .active, .dot:hover {
     background-color: #717171;
+}
+
+.notes {
+    margin: 0 30px;
+    color: paleturquoise;
+    border-radius: 30px;
 }
 
 @keyframes fade {
