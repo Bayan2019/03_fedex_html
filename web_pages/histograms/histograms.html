@@ -119,16 +119,26 @@
         <span class="dot" onclick="currentSlide(7)"></span> 
     </div>
     <div class="notes">
-        <p>We have luxury of big dataset and limitation of restricted computing power. 
+        <p>We have luxury of big dataset and limitation of 
+            restricted computing power. 
         Therefore we can simply drop the outliers.</p>
-        <p>However in our case by dropping constantly outliers we ended up with only not delivered records.
-            It is probably because our data is unbalanced and not delivered packages dominate the dataset by shadowing 
+        <p>However in our case by dropping constantly outliers we ended up 
+            with only not delivered records.
+            It is probably because our data is unbalanced and 
+            undelivered packages dominate the dataset by shadowing 
             the pattern of delivered packages.
         </p>
         <p>
-            Therefore we randomly were dropping undelivered packages to balance dataset. 
+            Therefore we randomly were dropping undelivered packages 
+            to balance dataset. 
         </p>
-        <p>Nonetheless we still ended with too big data, so we needed to sample again.</p>
+        <p>Nonetheless we still ended with too big data, 
+            so we needed to sample again:</p>
+
+        <h4>3 604 175 
+            -(Removing Missing Values and Duplicates)-> 3 522 163 
+        -(Removing Outliers and Resampling)-> 1 130 315 
+        -(Sampling)-> 226 063 </h4>
     </div>
 </body>
 <script src="./histograms.js"></script>

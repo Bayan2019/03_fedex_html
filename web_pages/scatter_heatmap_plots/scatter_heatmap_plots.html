@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fedex</title>
+    <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
+    <link rel="icon" type="image/x-icon" href="../../pictures/logo.png">
+    <link rel="stylesheet" href="./scatter_heatmap_plots.css">
+</head>
+<body>
+    <nav>
+        <!-- <img src="./pictures/logo.png" height="20px"> -->
+        <a href="../1st_moment/1st_moment.html">1st Moment</a> |
+        <a href="../2nd_moment/2nd_moment.html">2nd Moment</a> |
+        <a href="../3rd_moment/3rd_moment.html">3rd Moment</a> |
+        <a href="../4th_moment/4th_moment.html">4th Moment</a> |
+        <a href="../boxplot_outliers/boxplot_outliers.html">Outliers</a> |
+        <a href="../histograms/histograms.html">Histograms</a> |
+        <a href="../qq_plots/qq_plots.html">QQ Plots</a>
+    </nav>
+    <div class="nav">
+        <a href="../../index.html"><img src="../../pictures/logo.png" height="30px"></a> 
+        <h1 class="plot-title">Scatter Plots and heatmaps</h1>
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">1 / 8</div>
+                <img src="../../figures/heatmap.png">
+            </div>
+            <div class="text">
+                It is seems like that pairs of interested are 
+                <ul>
+                    <li><strong>Distance</strong> and <strong>Planned_TimeofTravel</strong></li>
+                    <li><strong>Planned_Shipment_Time</strong> and <strong>Actual_Shipment_Time</strong></li>
+                    <li><strong>Planned_Delivery_Time</strong> and <strong>Actual_Shipment_Time</strong></li>
+                    <li><strong> Delivery_Status</strong> <strong>Shipment_Delay</strong></li>
+                </ul> 
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">2 / 8</div>
+                <img src="../../figures/qqplot_Planned_TimeofTravel.png">
+            </div>
+            <div class="text">
+                <h3>Shapiro-Wilk p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>D'Agostino's $K^2$ p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>Jarque-Bera p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>Kolmogorov-Smirnov p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">3 / 8</div>
+                <img src="../../figures/qqplot_Distance.png">
+            </div>
+            <div class="text">
+                <h3>Shapiro-Wilk p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>D'Agostino's $K^2$ p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>Jarque-Bera p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>Kolmogorov-Smirnov p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">4 / 8</div>
+                <img src="../../figures/qqplot_Shipment_Delay.png">
+            </div>
+            <div class="text">
+                <h3>Shapiro-Wilk p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>D'Agostino's $K^2$ p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>Jarque-Bera p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>Kolmogorov-Smirnov p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">5 / 8</div>
+                <img src="../../figures/qqplot_Planned_Shipment_Time.png">
+            </div>
+            <div class="text">
+                <h3>Shapiro-Wilk p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>D'Agostino's $K^2$ p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>Jarque-Bera p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>Kolmogorov-Smirnov p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">6 / 8</div>
+                <img src="../../figures/qqplot_Actual_Shipment_Time.png">
+            </div>
+            <div class="text">
+                <h3>Shapiro-Wilk p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>D'Agostino's $K^2$ p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>Jarque-Bera p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+                <h3>Kolmogorov-Smirnov p-value: <strong>-0.0</strong> -- <strong>Not Normal</strong></h3>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">7 / 8</div>
+                <img src="../../figures/pairplot.png">
+            </div>
+            <div class="text">
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="plot">
+                <div class="numbertext">8 / 8</div>
+                <img src="../../figures/pairplot.png">
+            </div>
+            <div class="text">
+            </div>
+        </div>
+        <a class="prev1" onclick="plusSlides(-1)">❮</a>
+        <a class="next1" onclick="plusSlides(1)">❯</a>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+    </div>
+</body>
+<script src="./scatter_heatmap_plots.js"></script>
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</html>
