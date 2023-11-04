@@ -19,6 +19,7 @@
         <!-- <a href="./web_pages/boxplot_outliers/boxplot_outliers.html">Outliers</a> | -->
         <a href="../histograms/histograms.html">Histograms</a> |
         <a href="../qq_plots/qq_plots.html">QQ Plots</a>
+        <a href="../scatter_heatmap_plots/scatter_heatmap_plots.html">Scatter plots and heatmaps</a>
     </nav>
     <div class="nav">
         <a href="../../index.html"><img src="../../pictures/logo.png" height="30px"></a> 
@@ -36,10 +37,12 @@
                 <p>Boxplots show outliers in: <strong>Carrier_Num</strong>, <strong>Planned_TimeofTravel</strong>,
                      <strong>Distance</strong>, and <strong>Shipment_Delay</strong>.</p>
 
-                <p>We shall use Winsorization Technique to treat outliers.</p>
-                    
-                <p>Winsorization function rounds off the exceptional data points based on capping method 
-                    used in parameters/hyperparameters section.</p>
+                <p>We have big dataset, so we can simply delete all outliers.</p>
+
+                <p>Somehow by repeatedly deleting outliers we ended up with undelivered packages. This points out that
+                    we can cluster out all delivered packages by using just 4 variables.
+                </p>
+
             </div>
         </div>
         <div class="mySlides1 fade">
